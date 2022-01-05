@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+}
+.left h1 {
+  font-size: 40px;
+}
+.left p {
+  font-size: 24px;
+  color: rgb(92, 87, 87);
+  margin-bottom: 50px;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.header {
+  padding: 2%;
+  border-bottom: 5px solid green;
+}
+.header h1 {
+  width: 70%;
+  margin: auto;
+  color: green;
+}
+.red-color {
+  color: red;
+}
+.green-color {
+  color: green;
+}
+.flex-content {
+  display: flex;
+}
+#about {
+  margin-top: 40px;
+}
+.col-6 {
+  width: 50%;
+}
+.right img {
+  width: 100%;
+}
+.link {
+  text-decoration: none;
+  padding: 20px;
+  background-image: linear-gradient(to bottom right, green, red, green);
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
